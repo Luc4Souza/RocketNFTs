@@ -7,17 +7,12 @@
     --black-text: #000;
     --color-input: #0D0D0D;
   }
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-}
-
-body{
-
-   
 }
 
 header{
