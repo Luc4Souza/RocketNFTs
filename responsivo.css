@@ -9,7 +9,6 @@
     }
     .nav > .list{
         position: relative;
-        top: 50px;
         margin: auto;
     }
     .meta-mask{
@@ -34,10 +33,10 @@
     display: block;
         margin: auto;
     }
-    .list1-gallery{
-        display: none;
+    .nav-gallery{
+        margin: auto;
     }
-    .linha1{
-        
-}
+    .list1-gallery{
+        flex-direction: column;
+    }
 }
