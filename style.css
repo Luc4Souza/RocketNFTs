@@ -278,7 +278,8 @@ section{
 }
 .linha-text > span{
     color: var(--color-logo);
-    margin-left: 190px;
+    margin-left: 185px;
+    font-family:  'Montserrat', sans-serif;
 }
 .linha > img{
     margin-bottom: 30px;
@@ -293,7 +294,8 @@ section{
 }
 .linha-text3 > span{
     color: var(--color-logo);
-    margin-left: 165px;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 160px;
 }
 .linha-text4{
     display: flex;
@@ -305,7 +307,8 @@ section{
 }
 .linha-text4 > span{
     color: var(--color-logo);
-    margin-left: 155px;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 150px;
 }
 
 .linha-section{
@@ -346,7 +349,7 @@ nav{
     cursor: pointer;
 }
 .artistas{
-    background-color: var(--body-background);
+    background-color: var(--card-color);
     display: flex;
     
     margin-bottom: 100px;
