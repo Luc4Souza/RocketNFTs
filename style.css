@@ -15,8 +15,9 @@
     box-sizing: content-box;
 }
 
+
 body{
-    background-color: var(--body-background);
+    background-color: var(--black-text);
 }
 header{
     background-image: url(imagens/background.png);
@@ -152,7 +153,7 @@ li > img{
     max-width: 1440px;
     position: relative;
     margin: auto;
-    background-color: var(--card-color);
+    background-color: var(--body-background);
     display: flex;
     padding-top: 100px;
 }
@@ -230,7 +231,7 @@ li > img{
 }
 
 section{
-    background-color: var(--card-color);
+    background-color: var(--body-background);
     max-width: 1440px;
     margin: auto;
 }
@@ -318,7 +319,7 @@ section{
 nav{
     max-width: 1440px;
     margin: auto;
-    background-color: var(--card-color);
+    background-color: var(--body-background);
 }
 .text-nav{
     text-align: center;
@@ -409,16 +410,16 @@ footer{
     padding-bottom: 100px;
 }
 .footer-logo::after{
-    background-color: var(--body-background);
+    background-color: var(--subtitle-color);
     content: "";
     display: inline-block;
     height: 1px;
     position: relative;
     vertical-align: middle;
     align-items: center;
-    width: 120%;
+    width: 115%;
     top: 50px;
-    left: -195px;
+    left: -190px;
 }
 .footer-logo > .seta{
     margin-left: 780px;
@@ -471,13 +472,13 @@ footer{
     font-family: 'Montserrat', sans-serif;
 }
 .novidades::after{
-    background-color: var(--body-background);
+    background-color: var(--subtitle-color);
     content: "";
     display: inline-block;
     height: 1px;
     position: relative;
     vertical-align: middle;
-    width: 310%;
+    width: 305%;
     top: 25px;
 }
 .barra-footer{
@@ -485,7 +486,7 @@ footer{
     left: 41px;
     top: -58px;
     height: 270px;
-    border: 1px solid var(--body-background);
+    border: 1px solid var(--subtitle-color);
 }
 .list-links{
     display: flex;
@@ -509,7 +510,7 @@ footer{
     text-decoration: none;
 }
 .color-link{
-    color: var(--black-text);
+    color: var(--subtitle-color);
     font-weight: bold;
 }
 
@@ -518,7 +519,7 @@ footer{
     display: flex;
 }
 .footer-redes-sociais > a{
-    color: var(--black-text);
+    color: var(--subtitle-color);
     text-decoration: none;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
