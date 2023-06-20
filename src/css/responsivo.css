@@ -1,0 +1,267 @@
+@media(max-width: 1800px) {
+    nav{ 
+        padding: 5px 0 0 220px;
+    }
+    .meta-mask {
+        padding: 5px 10px;
+    }
+    .meta-mask a {
+        margin-left: 0px;
+    }
+    .nav a {
+        font-size: 16px;
+    }
+    .text-mercado p{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .nav-column2 h1 {
+        font-size: 38px;
+    }
+    .nav-column2 h2{
+        font-size: 35px;
+    }
+    .nav-column3 img{
+        height: 200px;
+    }
+    .list-gallery {
+        gap: 40px 70px;
+    }
+    .list-gallery img {
+        width: 300px;
+    }
+}
+@media(max-width: 1440px){
+    section{
+        max-width: 1000px;
+    }
+    .nav a{
+        font-size: 14px;
+    }
+    .nav-column2 h1 {
+        font-size: 30px;
+    }
+    .nav-column2 h2 {
+        font-size: 30px;
+    }
+    .nav-column3 img {
+        height: 150px;
+        margin-left: 0;
+    }
+    .list-gallery {
+        padding: 60px;
+        gap: 30px;
+    }
+    .list-gallery img {
+        width: 250px;
+    }
+    nav{
+        padding: 5px 60px;
+    }
+    .sobre-nos{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .nav-column3 img {
+        display: none;
+    }
+    .numbers h3{
+        font-size: 30px;
+        left: 130px;
+    }
+    .numbers span{
+        font-size: 18px;
+        left: 130px;
+    }
+    .card p{
+        font-size: 16px;
+        margin-top: 25px;
+        padding: 20px;
+    }
+    .card span{
+        padding: 20px;
+    }
+    .text-section h1{
+        padding: 100px;
+    }
+    .astronaltas{
+        padding: 50px 120px;
+        gap: 50px;
+    }
+    .melhores-arts h2{
+        margin: 50px auto;
+    }
+    .card-artistas{
+        padding: 50px 120px;
+        gap: 25px;
+    }
+    footer{
+        max-width: 1000px;
+    }
+    .footer-logo{
+        padding: 120px ;
+    }
+    .novidades{
+        padding: 50px;
+    }
+    .links-sobre{
+        padding: 50px;
+    }
+}
+@media(max-width: 1000px){
+    section{
+        max-width: 500px;
+    }
+    .nav li {
+        padding: 0 20px;
+    }
+    .list-gallery {
+        padding: 50px 150px;
+        gap: 50px;
+    }
+    .list-gallery img {
+        width: 250px;
+    }
+    .card-numbers{
+        flex-direction: column;
+        
+    }
+    .numbers{
+        border-right: none;
+        width: 100%;
+        height: 230px;
+        display: block;
+    }
+    .numbers h3{
+        font-size: 20px;
+        top: 25px;
+        left: 50px;
+        margin-bottom: 30px;
+    }
+    .numbers span{
+        top: -5px;
+        left: 45px;
+    }
+    .conteudo{
+        width: 100%;
+    }
+    .card-box{
+        flex-direction: column;
+    }
+    .card p {
+        height: auto;
+    }
+    .conteudo img {
+        margin-top: 50px;
+    }
+    .text-section h1 {
+        padding: 15px;
+        font-size: 30px;
+    }
+    .astronaltas {
+        padding: 50px 15px;
+        gap: 25px;
+    }
+    .nome-astro h2{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .linha-text {
+        margin: 10px 0;
+    }
+    .linha-text p {
+        font-size: 16px;
+    }
+    .melhores-arts h2{
+        font-size: 30px;
+        padding: 15px;
+        margin: 15px auto;
+    }
+    .card-artistas {
+        padding: 25px 15px;
+        gap: 15px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .todos-artitas{
+        padding: 0;
+    }
+    footer{
+        max-width: 500px;
+    }
+    .footer-logo {
+        padding: 30px;
+    }
+    .logo-img{
+        width: 150px;
+    }
+    .footer-logo a{
+        padding: 5px;
+    }
+    .footer-logo a img{
+        width: 15px;
+    }
+    .footer-info{
+        flex-direction: column;
+    }
+    .novidades{
+        border-right: none;
+    }
+    .links-sobre{
+        padding: 40px;
+    }
+    .footer-redes-sociais{
+        flex-direction: column;
+        padding: 25px 10px;
+        text-align: center;
+    }
+    .footer-redes-sociais ul{
+        margin: auto;
+        padding-top: 20px;
+    }
+    .ends {
+        text-align: center;
+        padding: 20px;
+    }
+}
+@media(max-width: 800px){
+    section{
+        max-width: 400px;
+    }
+    .nav{
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+    }
+    .nav img{
+        margin: auto;
+    }
+    .nav li {
+        margin: 30px auto;
+    }
+    .meta-mask {
+        margin: 30px auto;
+    }
+    .sobre-nos {
+        margin: 50px auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card-artistas {
+        padding: 10px 5px;
+        gap: 5px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer{
+        max-width: 400px;
+    }
+    .links-sobre{
+        padding: 20px;
+    }
+}
+@media(max-width: 550px){
+    .list-gallery {
+        gap: 40px 70px;
+        padding: 75px;
+    }
+    .list-gallery img {
+        width: 250px;
+        
+    }
+}
